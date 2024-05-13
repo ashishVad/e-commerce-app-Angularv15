@@ -21,7 +21,7 @@ jobs:
       run: npm ci
 
     - name: Build
-      run: npx ng build --prod
+      run: npx ng build --configuration production
 
     - name: Zip Artifacts
       run: |
