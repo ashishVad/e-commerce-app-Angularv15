@@ -3,6 +3,9 @@ name: Build and Zip Angular App
 on:
   push:
     branches: [ master ]
+permissions:
+  checks: write
+  contents: write
 
 jobs:
   build:
